@@ -4,3 +4,4 @@ NUMBER1=$1
 NUMBER2=$2
 # i want run the command adding of 2 numbers
 SUM=$((NUMBER1+NUMBER2))
+echo " addition of 2 numbers: $SUM"
