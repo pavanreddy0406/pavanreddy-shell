@@ -1,9 +1,11 @@
 #!/bin/bash/
 echo "iam learning"
 echo "iam also devops groups"
-echo "pavan:hello,ramesh
-echo "ramesh:hello pavan
-echo "pavan:where are you ramesh
-echo "ramesh:iam fine pavan
-echo "pavan:ok
-echo "ramesh:ok
+PERSON1=pavan
+PERSON2=ramesh
+echo "$PERSON1:hello,$PERSON2
+echo "$PERSON2:hello $PERSON1
+echo "$PERSON1:where are you $PERSON2
+echo "$PERSON2:iam fine $PERSON1
+echo "$PERSON1:ok
+echo "$PERSON2:ok
