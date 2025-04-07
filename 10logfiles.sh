@@ -5,7 +5,8 @@ SCRIPT_NAME=$0
 LOGFILE=/tmp/SCRIPT_NAME-$DATE.log
 USERID=$(id -u)
 VALIDATE(){
-if [$1 -ne 0 ]
+
+if [ $1 -ne 0 ]
 then
     echo "$2 .... failure"
     exit 1
