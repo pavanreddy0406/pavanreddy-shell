@@ -14,7 +14,7 @@ else
     echo "$2.... is success"
 fi
 }
-if [$USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
     echo "ERROR:run the sceipt in root acess"
     exit 1
