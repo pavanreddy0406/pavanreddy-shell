@@ -5,7 +5,7 @@ VALIDATE(){
 if [$1 -ne 0 ]
 then
     echo "$2 .... failure"
-    exit1
+    exit 1
 else
     echo "$2.... is success"
 fi
@@ -15,7 +15,7 @@ exit 1
 then
     echo "ERROR:run the sceipt in root acess"
 else
-    echo "INFO: suess
+    echo "INFO: success"
 fi
 yum install mysql -y
 VALIDATE $? "installing mysql"
