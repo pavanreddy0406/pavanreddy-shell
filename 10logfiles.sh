@@ -12,10 +12,10 @@ VALIDATE(){
 
 if [ $1 -ne 0 ]
 then
-    echo -e "$2 ....$R failure $N"
+    echo -e "$2 .... $R failure $N"
     exit 1
 else
-    echo "$2....$G is success $N"
+    echo -e "$2.... $G is success $N"
 fi
 }
 if [ $USERID -ne 0 ]
