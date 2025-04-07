@@ -16,3 +16,10 @@ then
 else 
     echo " installong my sql is sucess"
 fi
+yum install postfix -y
+if [ $? -ne o ]
+then
+    echo "installing postfix is error"
+else 
+    echo " installong postfix is sucess"
+fi
